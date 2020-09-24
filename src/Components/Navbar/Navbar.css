@@ -1,0 +1,56 @@
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+.brand-logo{
+    text-decoration-color: black;
+}
+/* .insta */
+@media only screen and (max-width: 650px){
+    .instagram-logo{
+        display: none;
+       
+    }
+    
+}
+
+@media only screen and (max-width: 840px)
+{
+    .search-input
+    {
+      
+        float: left;
+      
+    }
+    #nav-mobile{
+        display: none;
+    }
+
+}
+
+.search-bar{
+    margin:10px 30px 10px 30px;
+    text-align: center;
+    width:20%;
+}
+.search-input{
+    width:20%;
+}
+.search-bar input[type=search] {
+    /* padding: 6px; */
+   
+    font-size: 17px;
+    border: blue;
+    border: blue;
+    border: 1px solid black;
+    width: 20%;
+    margin: 10px 0 10px 476px;
+    background-color: rgb(240, 238, 238);
+    color: black
+}
+
+
+  
